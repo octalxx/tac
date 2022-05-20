@@ -8,10 +8,27 @@
 }
 
 body {
-    background-color: #e5e5e5;
+    background-color: #ffffff;
   }
   
   p {
     background-color: #FFCBCB;
-    margin-left: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
   }
+  p1 {
+    text-align: center;
+  }
+  h1 {
+    background-color: #ffffff;
+    text-align: center;
+  }
+  h2 {
+    background-color: #FFCBCB;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+.productmeny {
+  text-align: center;
+  font-size: 20px;
+}

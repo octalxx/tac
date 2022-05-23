@@ -6,7 +6,17 @@
   width: 93px;
   height: 73px;
 }
-
+#link-container {
+  text-align: center;
+  background-color: #FFCBCB;
+}
+#link {
+  display: inline-block;
+  padding: 10px;
+}
+#headlogo {
+  background-color: #575757;
+}  
 body {
     background-color: #ffffff;
   }
@@ -28,7 +38,7 @@ body {
     margin-left: 250px;
     margin-right: 250px;
   }
-.productmeny {
+.productmenu {
   text-align: center;
   font-size: 20px;
 }

@@ -21,13 +21,13 @@ if (!isset($_SESSION['loggedin'])) {
             </a>
         </div>
 		<div id="link-container">
-        <a href="index.html" id="link">Home</a>
-        <a href="about.html" id="link">About us</a>
-        <a href="products.html" id="link">Products</a>
-        <a href="login.html" id="link">Login</a>
-        <a href="register.html" id="link">Register</a>
-        <a href="contactus.html" id="link">Contact us</a>
-      </div>
+        	<a href="index.html" class="link_button" id="link">Home</a>
+        	<a href="about.html" class="link_button" id="link">About us</a>
+        	<a href="products.html" class="link_button" id="link">Products</a>
+        	<a href="login.html" class="link_button" id="link">Login</a>
+        	<a href="register.html" class="link_button" id="link">Register</a>
+        	<a href="contactus.html" class="link_button" id="link">Contact us</a>
+    	</div>
 	</head>
 	<body class="loggedin">
 		<nav class="navtop">

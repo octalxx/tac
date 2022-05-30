@@ -8,7 +8,7 @@
 }
 #link-container {
   text-align: center;
-  background-color: #FFCBCB;
+  background-color: #1D2D44;
 }
 #link {
   display: inline-block;
@@ -18,7 +18,7 @@
   background-color: #575757;
 }  
 body {
-    background-color: #ffffff;
+    background-color: #748CAB;
   }
   
   p {
@@ -30,13 +30,15 @@ body {
     text-align: center;
   }
   h1 {
-    background-color: #ffffff;
+    background-color: #748CAB;
     text-align: center;
+    color:#f0ead6;
   }
   h2 {
-    background-color: #FFCBCB;
+    background-color: #748CAB;
     margin-left: 250px;
     margin-right: 250px;
+    color:#f0ead6;
   }
 .productmenu {
   text-align: center;
@@ -55,4 +57,10 @@ body {
 }
 .link_button:hover {
   background-color: #FFCBCB;
+}
+.unicorn {
+  display: inline;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

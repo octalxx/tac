@@ -15,10 +15,11 @@
   padding: 8px;
 }
 #headlogo {
-  background-color: #575757;
+  background-color: #0d1321;
 }  
 body {
-    background-color: #748CAB;
+    background-color: #3e5c76;
+    margin: 0;
   }
   
   p {
@@ -30,12 +31,12 @@ body {
     text-align: center;
   }
   h1 {
-    background-color: #748CAB;
+    background-color: #3e5c76;
     text-align: center;
     color:#f0ead6;
   }
   h2 {
-    background-color: #748CAB;
+    background-color: #3e5c76;
     margin-left: 250px;
     margin-right: 250px;
     color:#f0ead6;

@@ -14,7 +14,7 @@ if (!isset($_SESSION['loggedin'])) {
   <meta charset="utf-8">
   <title>Admin page</title>
   
-  <link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
+  <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 
 </head>
@@ -23,22 +23,22 @@ if (!isset($_SESSION['loggedin'])) {
 
   <div id="headlogo">
     <a href="./index.html">  
-      <img src="tac-logo.png" alt="logo" class="logo">
+      <img src="../assets/tac-logo.png" alt="logo" class="logo">
     </a>
   </div>
 
   <div id="link-container">
-    <a href="./index.html" class="link_button" id="link">Home</a>
-    <a href="./about.html" class="link_button" id="link">About us</a>
-    <a href="./products.html" class="link_button" id="link">Products</a>
-    <a href="./login.html" class="link_button" id="link">Login</a>
-    <a href="./register.html" class="link_button" id="link">Register</a>
-    <a href="./contactus.html" class="link_button" id="link">Contact us</a>
+    <a href="../index.html" class="link_button" id="link">Home</a>
+    <a href="../about.html" class="link_button" id="link">About us</a>
+    <a href="../products.html" class="link_button" id="link">Products</a>
+    <a href="../login.html" class="link_button" id="link">Login</a>
+    <a href="../register.html" class="link_button" id="link">Register</a>
+    <a href="../contactus.html" class="link_button" id="link">Contact us</a>
   </div>
 
   <nav class="navtop">
 	<div>
-	  <h1>TAC Admin Page</h1>
+
 		<a href="profile.php"><i class="fas fa-user-circle"></i>Profile</a>
 		<a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
 	</div>

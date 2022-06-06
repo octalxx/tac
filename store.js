@@ -27,12 +27,20 @@ function ready() {
 }
 
 function purchaseClicked() {
-    alert('Thank you for your purchase')
     var cartItems = document.getElementsByClassName('cart-items')[0]
-    while (cartItems.hasChildNodes()) {
-        cartItems.removeChild(cartItems.firstChild)
+    if (cartItems.hasChildNodes())
+    {
+        alert('Thank you for your purchase')
+
+        while (cartItems.hasChildNodes()) {
+            cartItems.removeChild(cartItems.firstChild)
+        }
+        updateCartTotal()
     }
-    updateCartTotal()
+    else
+    {
+        alert('Your cart is empty!')
+    }
 }
 
 function removeCartItem(event) {

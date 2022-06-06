@@ -13,19 +13,19 @@ body {
 }
   
 p{
-  background-color: #FFCBCB;
+  background-color: #0d1321;
   margin-left: 400px;
   margin-right: 400px;
 }
 
 h1{
-  background-color: #3e5c76;
+  background-color: #435165;
   text-align: center;
   color:#f0ead6;
 }
 
 h2{
-  background-color: #3e5c76;
+  background-color: #435165;
   margin-left: 250px;
   margin-right: 250px;
   color:#f0ead6;
@@ -43,7 +43,8 @@ h2{
 }
 
 #headlogo {
-  background-color: #0d1321;
+  background-color: #141e36;
+  
 }  
 
 /* Navbar */
@@ -166,7 +167,7 @@ margin: 0;
 padding: 25px 0;
 font-size: 22px;
 border-bottom: 1px solid #e0e0e3;
-color: #4a536e;
+color: #f0ead6;
 }
 
 .content > p, .content > div {

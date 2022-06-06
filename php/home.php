@@ -22,7 +22,7 @@ if (!isset($_SESSION['loggedin'])) {
 <body class="loggedin">
 
   <div id="headlogo">
-    <a href="./index.html">  
+    <a href="../index.html">  
       <img src="../assets/tac-logo.png" alt="logo" class="logo">
     </a>
   </div>

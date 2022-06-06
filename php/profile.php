@@ -29,7 +29,6 @@ $stmt->close();
 <head>
   <meta charset="utf-8">
 
-  
   <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 </head>
@@ -42,8 +41,6 @@ $stmt->close();
     </a>
   </div>
 
- 
-
 	<div id="link-container">
       <a href="../index.html" class="link_button" id="link">Home</a>
       <a href="../about.html" class="link_button" id="link">About us</a>
@@ -52,12 +49,13 @@ $stmt->close();
       <a href="../register.html" class="link_button" id="link">Register</a>
       <a href="../contactus.html" class="link_button" id="link">Contact us</a>
     </div>
-  </nav>
+
   <nav class="navtop">
 	<div>
 	    <a href="profile.php"><i class="fas fa-user-circle"></i>Profile</a>
 		<a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
 	</div>
+  </nav>
   
   <div class="content">
 

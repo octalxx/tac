@@ -518,7 +518,10 @@ background-color: #2868c7;
 }
 
 .shop-item-image {
+  display: block;
     height: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .shop-item-details {

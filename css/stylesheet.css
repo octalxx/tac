@@ -92,6 +92,14 @@ h2{
   -webkit-text-fill-color: transparent;
 }
 
+/* Human evolution pic */
+
+.manevo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Login Form */
 
 .login {
@@ -587,7 +595,7 @@ background-color: #2868c7;
     border-radius: 5px;
     border: 1px solid #56CCF2;
     background-color: #eee;
-    color: #f0ead6
+    color: #f0ead6;
     padding: 0;
     text-align: center;
     font-size: 1.2em;

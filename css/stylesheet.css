@@ -508,6 +508,14 @@ background-color: #2868c7;
     color: #f0ead6;
     margin-bottom: 15px;
 }
+.shop-item-desc {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: #f0ead6;
+  margin-bottom: 15px;
+}
 
 .shop-item-image {
     height: 250px;

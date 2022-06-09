@@ -537,6 +537,10 @@ background-color: #2868c7;
     color: #f0ead6;
 }
 
+.shop-item-button {
+  margin-top: 20px;
+}
+
 .shop-items {
     display: flex;
     flex-wrap: wrap;

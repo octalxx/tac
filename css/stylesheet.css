@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,6 +29,12 @@ h2{
   margin-left: 250px;
   margin-right: 250px;
   color:#f0ead6;
+}
+
+#rec-content {
+  text-align: center;
+  margin-top: 69px;
+  margin-bottom: 69px;
 }
 
 /* Image Header */
@@ -205,7 +211,7 @@ margin: 0 0 10px 0;
 /* Navbar Logged In Icons???? */
 
 .navtop {
-  background-color: #0d1321;
+  background-color: #1D2D44;
   height: 60px;
   width: 100%;
   border: 0;
@@ -397,7 +403,6 @@ background-color: #2868c7;
     color: #f0ead6;
     margin-bottom: 15px;
 }
-
 .shop-item-desc {
   display: block;
   width: 100%;

@@ -42,14 +42,15 @@ $stmt->close();
     </a>
   </div>
 
-	<div id="link-container">
-      <a href="../index.html" class="link_button" id="link">Home</a>
-      <a href="../about.html" class="link_button" id="link">About us</a>
-      <a href="../products.html" class="link_button" id="link">Products</a>
-      <a href="../login.html" class="link_button" id="link">Login</a>
-      <a href="../register.html" class="link_button" id="link">Register</a>
-      <a href="../contactus.html" class="link_button" id="link">Contact us</a>
-    </div>
+  <div id="link-container">
+    <a href="../index.html" class="link_button" id="link">Home</a>
+    <a href="../about.html" class="link_button" id="link">About us</a>
+    <a href="../products.html" class="link_button" id="link">Products</a>
+    <a href="../recommendations.html" class="link_button" id="link">Recommendations</a>
+    <a href="../login.html" class="link_button" id="link">Login</a>
+    <a href="../register.html" class="link_button" id="link">Register</a>
+    <a href="../contact.html" class="link_button" id="link">Contact us</a>
+  </div>
 
   <nav class="navtop">
 	<div>
@@ -67,10 +68,11 @@ $stmt->close();
 		  <td>Username:</td>
 		  <td><?=$_SESSION['name']?></td>
 		</tr>
-		<tr>
+<!--		<tr>
 		  <td>Password:</td>
 		  <td><?=$password?></td>
-		</tr>
+		</tr> 
+-->
 		<tr>
 		  <td>Email:</td>
 		  <td><?=$email?></td>

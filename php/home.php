@@ -32,22 +32,22 @@ if (!isset($_SESSION['loggedin'])) {
     <a href="../index.html" class="link_button" id="link">Home</a>
     <a href="../about.html" class="link_button" id="link">About us</a>
     <a href="../products.html" class="link_button" id="link">Products</a>
+    <a href="../recommendations.html" class="link_button" id="link">Recommendations</a>
     <a href="../login.html" class="link_button" id="link">Login</a>
     <a href="../register.html" class="link_button" id="link">Register</a>
-    <a href="../contactus.html" class="link_button" id="link">Contact us</a>
+    <a href="../contact.html" class="link_button" id="link">Contact us</a>
   </div>
 
   <nav class="navtop">
 	<div>
-
 		<a href="profile.php"><i class="fas fa-user-circle"></i>Profile</a>
 		<a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
 	</div>
   </nav>
 
   <div class="content">
-	<h2>Home Page</h2>
-	  <p>Welcome back, <?=$_SESSION['name']?>!</p>
+	  <h1>Welcome back, <?=$_SESSION['name']?>!</h1>
+    <p>Now that you're logged in, cool huh? Even though databases are pretty boring they make an excellent tool to store your information so we can sell it to the Chinese government. I mean uh... store it according to the GDPR.</p>
   </div>
 
 </body>

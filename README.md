@@ -1,4 +1,4 @@
-# tac
+# TAC
 TAC's repository for webpage project
 
 The new system must include the following:
